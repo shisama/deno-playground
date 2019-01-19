@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/x/net/http.ts";
+import { serve } from "https://deno.land/x/http/mod.ts";
 const addr = '127.0.0.1:8080';
 const s = serve(addr);
 
